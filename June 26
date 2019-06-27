@@ -2,4 +2,24 @@ const name= "Trista";
 console.log ("hello" + " " + name);
 console.log(`Hello ${name}`);
 
+const name = ["bob", "Linda", "yoink", "bloop"];
+console.log(`<p>${obj[item]}</p>`);
 
+// fizzbuzz exercise
+
+const fizzbuzz = (num1 , num2) => {
+  for (let i=0; i<101; i++){
+    if( i%num1 === 0 && i%num2 === 0){
+      console.log ("fizzbuzz") 
+    } else if (i%num1 === 0){
+      console.log ("fizz")
+    } else if (i%num2 ===0){
+        console.log ("buzz")
+    }
+    
+    else {
+      console.log (i);
+    }
+  }
+}
+fizzbuzz (3,5)
