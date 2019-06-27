@@ -1,0 +1,5 @@
+const name= "Trista";
+console.log ("hello" + " " + name);
+console.log(`Hello ${name}`);
+
+
